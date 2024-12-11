@@ -1,12 +1,12 @@
 from PyQt5.QtGui import QColor
 
 class Player:
-    def __init__(self, name: str, color: QColor):
+    def __init__(self, name: str, colour: QColor):
         self.name = name
-        self.color = color
+        self.colour = colour
 
     def get_name(self):
-        pass
+        return self.name
 
     def get_color(self):
-        pass
+        return self.colour

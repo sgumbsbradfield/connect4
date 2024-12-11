@@ -1,13 +1,14 @@
 from PyQt5.QtGui import QColor
 
 class Counter:
-    def __init__(self, x: int, y: int, color: QColor):
+    def __init__(self, x: int, y: int, colour: QColor):
         self.x = x
         self.y = y
-        self.color = color
+        self.colour = colour
 
     def get_position(self):
-        pass
+        return (self.x, self.y)
 
     def set_position(self, x: int, y: int):
-        pass
+        self.x = x
+        self.y = y
